@@ -1,0 +1,34 @@
+{
+  "id": 9,
+  "robots": [
+    {"id": "bbatc", "name": "BBATC"},
+    {"id": "1_9-tdi", "name": "1.9 TDI"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-0.07, -1.1],
+    [0.07, 1.1],
+    [-1.23, 0.94],
+    [1.23, -0.94],
+    [0.86, -0.36],
+    [-0.86, 0.36],
+    [-0.82, -1.29],
+    [0.82, 1.29],
+    [1.47, 0.04],
+    [-1.47, -0.04]
+  ]
+}
