@@ -520,7 +520,7 @@
         "rounds": [
           {
             "scores": [[], [{"time": 1766081689980, "isValid": true}]],
-            "fouls": [[], []],
+            "fouls": [[], [{"time": 1766081730283, "isValid": true}]],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
@@ -692,7 +692,7 @@
     "rounds": [
       {
         "scores": [[], [{"time": 1766081689980, "isValid": true}]],
-        "fouls": [[], []],
+        "fouls": [[], [{"time": 1766081730283, "isValid": true}]],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
