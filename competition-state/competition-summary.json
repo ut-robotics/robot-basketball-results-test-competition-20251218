@@ -377,10 +377,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 17,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1766081086334, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -493,94 +493,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 4,
+    "id": 5,
     "robots": [
-      {"id": "polva-passat", "name": "Põlva Passat"},
-      {"id": "imbi", "name": "Imbi"}
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "arnold", "name": "Arnold"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1766080727331, "isValid": true},
-            {"time": 1766080732012, "isValid": true}
-          ],
-          [
-            {"time": 1766080680672, "isValid": true},
-            {"time": 1766080692702, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60037,
+        "baskets": ["blue", "magenta"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 17,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1766080658067, "endTime": 1766080697996},
-          {"startTime": 1766080715629, "endTime": 1766080735737}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1766080813306, "isValid": true},
-            {"time": 1766080829278, "isValid": true},
-            {"time": 1766080870920, "isValid": true},
-            {"time": 1766080885316, "isValid": true}
-          ],
-          [
-            {"time": 1766080820806, "isValid": true},
-            {"time": 1766080882861, "isValid": true}
-          ]
-        ],
-        "fouls": [[], [{"time": 1766080834401, "isValid": true}]],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60095,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1766080793082, "endTime": 1766080830066},
-          {"startTime": 1766080861947, "endTime": 1766080885058}
-        ]
-      },
-      {
-        "scores": [[{"time": 1766080966333, "isValid": true}], []],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60102,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1766080946620, "endTime": 1766081006722}]
+        "runs": [{"startTime": 1766081086334, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "polva-passat", "name": "Põlva Passat"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.05, -0.81],
-      [0.05, 0.81],
-      [-1.98, 1.4],
-      [1.98, -1.4],
-      [1.41, 0.2],
-      [-1.41, -0.2],
-      [1.02, -0.86],
-      [-1.02, 0.86],
-      [1.42, 0.62],
-      [-1.42, -0.62]
+      [1.03, -0.54],
+      [-1.03, 0.54],
+      [-1, -0.04],
+      [1, 0.04],
+      [-1.03, -0.72],
+      [1.03, 0.72],
+      [-1.04, -0.44],
+      [1.04, 0.44],
+      [-0.42, -0.9],
+      [0.42, 0.9]
     ]
   }
 }
