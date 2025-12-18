@@ -129,14 +129,14 @@
         "rounds": [
           {
             "scores": [[], []],
-            "fouls": [[], []],
+            "fouls": [[], [{"time": 1766079741232, "isValid": true}]],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4280,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1766079731612, "endTime": 1766079735892}]
           }
         ],
         "status": {"result": "unknown"},
@@ -249,93 +249,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1,
+    "id": 2,
     "robots": [
-      {"id": "polva-passat", "name": "Põlva Passat"},
-      {"id": "hugo-toom", "name": "Hugo Toom"}
+      {"id": "arnold", "name": "Arnold"},
+      {"id": "saucisson", "name": "Saucisson"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1766079382892, "isValid": true},
-            {"time": 1766079400825, "isValid": true}
-          ],
-          [
-            {"time": 1766079333960, "isValid": true},
-            {"time": 1766079342548, "isValid": true},
-            {"time": 1766079376709, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1766079349600, "isValid": true}], []],
+        "scores": [[], []],
+        "fouls": [[], [{"time": 1766079741232, "isValid": true}]],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60008,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4280,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1766079322844, "endTime": 1766079342908},
-          {"startTime": 1766079371684, "endTime": 1766079411628}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1766079512113, "isValid": true},
-            {"time": 1766079516964, "isValid": true}
-          ],
-          [
-            {"time": 1766079504824, "isValid": true},
-            {"time": 1766079510476, "isValid": true},
-            {"time": 1766079515310, "isValid": true},
-            {"time": 1766079521656, "isValid": true},
-            {"time": 1766079575436, "isValid": true},
-            {"time": 1766079587908, "isValid": true}
-          ]
-        ],
-        "fouls": [
-          [
-            {"time": 1766079534894, "isValid": true},
-            {"time": 1766079564601, "isValid": true}
-          ],
-          []
-        ],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60095,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1766079494036, "endTime": 1766079530148},
-          {"startTime": 1766079554820, "endTime": 1766079560460},
-          {"startTime": 1766079570269, "endTime": 1766079588612}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1766079731612, "endTime": 1766079735892}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "hugo-toom", "name": "Hugo Toom"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.46, -0.73],
-      [-0.46, 0.73],
-      [-1.77, -0.89],
-      [1.77, 0.89],
-      [0.73, -0.38],
-      [-0.73, 0.38],
-      [1.31, -1.07],
-      [-1.31, 1.07],
-      [1.81, -1.01],
-      [-1.81, 1.01]
+      [1.88, -0.39],
+      [-1.88, 0.39],
+      [-0.42, -1.24],
+      [0.42, 1.24],
+      [-0.18, 0.3],
+      [0.18, -0.3],
+      [-1.68, -0.67],
+      [1.68, 0.67],
+      [-2.2, -0.58],
+      [2.2, 0.58]
     ]
   }
 }
