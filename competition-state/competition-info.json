@@ -26,16 +26,16 @@
       {"id": "imbi", "name": "Imbi"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3],
-    "byes": [{"robotID": "bbatc"}],
+    "gameIDs": [1, 2, 3, 4, 5, 6],
+    "byes": [{"robotID": "bbatc"}, {"robotID": "saucisson"}],
     "robotStartingBaskets": {
-      "bbatc": [],
-      "polva-passat": ["blue"],
-      "hugo-toom": ["magenta"],
-      "arnold": ["blue"],
+      "bbatc": ["magenta"],
+      "polva-passat": ["blue", "magenta"],
+      "hugo-toom": ["magenta", "blue"],
+      "arnold": ["blue", "magenta"],
       "saucisson": ["magenta"],
-      "1_9-tdi": ["blue"],
-      "imbi": ["magenta"]
+      "1_9-tdi": ["blue", "blue"],
+      "imbi": ["magenta", "blue"]
     },
     "hasEnded": false
   }

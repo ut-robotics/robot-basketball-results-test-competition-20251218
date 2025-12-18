@@ -1,0 +1,34 @@
+{
+  "id": 5,
+  "robots": [
+    {"id": "1_9-tdi", "name": "1.9 TDI"},
+    {"id": "arnold", "name": "Arnold"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.03, -0.54],
+    [-1.03, 0.54],
+    [-1, -0.04],
+    [1, 0.04],
+    [-1.03, -0.72],
+    [1.03, 0.72],
+    [-1.04, -0.44],
+    [1.04, 0.44],
+    [-0.42, -0.9],
+    [0.42, 0.9]
+  ]
+}
