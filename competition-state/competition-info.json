@@ -1,6 +1,14 @@
 {
   "id": "robot-basketball-competition-20251218",
   "name": "Robot Basketball Competition 2025-12-18",
-  "robots": [],
+  "robots": [
+    {"id": "1_9-tdi", "name": "1.9 TDI"},
+    {"id": "arnold", "name": "Arnold"},
+    {"id": "bbatc", "name": "BBATC"},
+    {"id": "hugo-toom", "name": "Hugo Toom"},
+    {"id": "imbi", "name": "Imbi"},
+    {"id": "polva-passat", "name": "Põlva Passat"},
+    {"id": "saucisson", "name": "Saucisson"}
+  ],
   "tournament": null
 }
