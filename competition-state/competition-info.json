@@ -10,5 +10,33 @@
     {"id": "polva-passat", "name": "Põlva Passat"},
     {"id": "saucisson", "name": "Saucisson"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "bbatc", "name": "BBATC"},
+      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "hugo-toom", "name": "Hugo Toom"},
+      {"id": "arnold", "name": "Arnold"},
+      {"id": "saucisson", "name": "Saucisson"},
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "imbi", "name": "Imbi"}
+    ],
+    "roundCount": 3,
+    "gameIDs": [1, 2, 3],
+    "byes": [{"robotID": "bbatc"}],
+    "robotStartingBaskets": {
+      "bbatc": [],
+      "polva-passat": ["blue"],
+      "hugo-toom": ["magenta"],
+      "arnold": ["blue"],
+      "saucisson": ["magenta"],
+      "1_9-tdi": ["blue"],
+      "imbi": ["magenta"]
+    },
+    "hasEnded": false
+  }
 }
